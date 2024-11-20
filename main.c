@@ -1,7 +1,19 @@
-/*
- * startup, main loop, enviroments and error handling
+/*-
+ * Copyright (c) 1987-1999 pdksh contributors
+ * Copyright (c) 2024      Masanori Ogino
+ *
+ * SPDX-License-Identifier: CC0-1.0
  */
 
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+	puts("hello, world");
+	return 0;
+}
+
+#if 0
 #define	EXTERN				/* define EXTERNs in sh.h */
 
 #include "sh.h"
@@ -839,3 +851,4 @@ aerror(ap, msg)
 	errorf(null); /* this is never executed - keeps gcc quiet */
 	/*NOTREACHED*/
 }
+#endif
