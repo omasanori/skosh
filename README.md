@@ -6,7 +6,7 @@ domain Unix shell implementation.
 
 Skosh will support the POSIX shell command language and the most of the
 KornShell language as defined in *The New KornShell Command and Programming
-Language* by Morris I. Bolsky and David G. Korn.
+Language* by Morris Bolsky and David Korn.
 In addition to the POSIX and KornShell modes, we will implement a modern
 language suitable for both interactive and non-interactive use cases.
 
