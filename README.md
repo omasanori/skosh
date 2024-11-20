@@ -2,8 +2,8 @@
 
 Skosh is a reliable and efficient Unix command-line shell derived from pdksh.
 
-Skosh will support the POSIX Shell Command Language and the most of the
-KornShell language as defined in *The New KornShell Command and Programming
+Skosh will support the POSIX Shell Command Language as well as the most of the
+KornShell language defined in *The New KornShell Command and Programming
 Language* by Morris Bolsky and David Korn.
 
 ## Status
