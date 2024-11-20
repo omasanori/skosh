@@ -10,6 +10,6 @@ of language suitable for both interactive and non-interactive use cases.
 
 ## License
 
-Skosh is marked with [CC0 1.0]. See LICENSE for details.
+Skosh is marked with [CC0 1.0].
 
 [CC0 1.0]: https://creativecommons.org/publicdomain/zero/1.0/
