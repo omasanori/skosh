@@ -1,8 +1,7 @@
 # Skosh
 
 Skosh is a command-line shell following traditions of Unix systems.
-It is derived from public domain ksh (pdksh) to provide an up-to-date public
-domain Unix shell implementation.
+It is a fork of public domain ksh (pdksh).
 
 Skosh will support the POSIX shell command language and the most of the
 KornShell language as defined in *The New KornShell Command and Programming
