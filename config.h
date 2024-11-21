@@ -1,13 +1,12 @@
-/*
- * This file, acconfig.h, which is a part of pdksh (the public domain ksh),
- * is placed in the public domain.  It comes with no licence, warranty
- * or guarantee of any kind (i.e., at your own risk).
- */
+/*-
+ * Copyright (c) 1987-1999 pdksh contributors
+ * Copyright (c) 2024      Masanori Ogino
+ *
+ * SPDX-License-Identifier: CC0-1.0
+ */ 
 
 #ifndef CONFIG_H
 #define CONFIG_H
-
-@TOP@
 
 /* Define if your kernal doesn't handle scripts starting with #! */
 #undef SHARPBANG
@@ -175,20 +174,6 @@
 /* Include game-of-life? (see comments in configure.in for more details) */
 #undef SILLY
 
-@BOTTOM@
-
-/* Need to use a separate file to keep the configure script from commenting
- * out the undefs....
- */
-#include "conf-end.h"
-
-#endif /* CONFIG_H */
-/*
- * End of configuration stuff for PD ksh.
- *
- * RCSid: $Id$
- */
-
 #if defined(EMACS) || defined(VI)
 # define	EDIT
 #else
@@ -238,16 +223,6 @@
 # define GCC_FUNC_ATTR(x)
 # define GCC_FUNC_ATTR2(x,y)
 #endif /* HAVE_GCC_FUNC_ATTR */
-/* config.h.in.  Generated automatically from configure.in by autoheader.  */
-/*
- * This file, acconfig.h, which is a part of pdksh (the public domain ksh),
- * is placed in the public domain.  It comes with no licence, warranty
- * or guarantee of any kind (i.e., at your own risk).
- */
-
-#ifndef CONFIG_H
-#define CONFIG_H
-
 
 /* Define if on AIX 3.
    System headers sometimes define this.
@@ -591,10 +566,5 @@
 
 /* Define if you have the <values.h> header file.  */
 #undef HAVE_VALUES_H
-
-/* Need to use a separate file to keep the configure script from commenting
- * out the undefs....
- */
-#include "conf-end.h"
 
 #endif /* CONFIG_H */
