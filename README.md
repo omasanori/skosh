@@ -9,8 +9,7 @@ and other extensions to Skosh in the future.
 
 ## Status
 
-Skosh is currently pre-alpha quality software. We are preparing for the first
-alpha release.
+We are preparing for the first alpha release.
 
 ## License
 
