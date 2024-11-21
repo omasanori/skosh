@@ -1,8 +1,6 @@
-/*
- * value of $KSH_VERSION (or $SH_VERSION)
+/*-
+ * Copyright (c) 1987-1999 pdksh contributors
+ * Copyright (c) 2024      Masanori Ogino
  */
 
-#include "sh.h"
-
-const char ksh_version [] =
-	"@(#)PD KSH v5.2.14 99/07/13.2";
+const char ksh_version [] = "skosh v0.1.0-pre";
