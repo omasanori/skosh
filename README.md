@@ -1,6 +1,6 @@
 # Skosh
 
-Skosh is a reliable and efficient Unix command-line shell derived from pdksh.
+Skosh is a reliable and efficient Unix command-line shell.
 
 ## Status
 
